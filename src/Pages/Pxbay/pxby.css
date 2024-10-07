@@ -1,0 +1,230 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* border: rgb(79, 21, 185) 3px solid; */
+}
+/* .container {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #4a0d0d;
+    border: 3px solid red;
+  } */
+  
+  .header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    z-index: 1;
+    position: fixed;
+    background-color: #d3d5de;
+    width: 100%;
+  }
+  button{
+    width: 90px;
+    height: 40px;
+    color: white;
+    font: 14px;
+    background-color: #00AB6B;
+    margin: 0px 0px 0px 12px;
+    padding: 0px 16px;
+    border-radius: 20px;
+    position: relative;
+    right: 30px;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('https://cdn.pixabay.com/index/2024/09/19/05-14-26-334_1920x550.jpg'); 
+    background-size: cover;
+    background-position: center;
+   
+    height: 400px;
+    width: 100%;
+    
+  }
+  
+  .hero-title {
+    font-size: 38px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+    height: 39px;
+
+  }
+  
+  .search-input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    font-size: 18px;
+  }
+  
+  .search-filter {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    right: 150px;
+    top: 8px;
+    font-size: 17px;
+  }
+  
+  .footer {
+    margin-top: 30px;
+    text-align: center;
+    background-color: white;
+    align-items: center;
+    padding: 20px 0;
+    /* border: 3px solid brown; */
+    position: relative;
+    bottom: 40px;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1em;
+  }
+  
+  .footer-links li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .header4{
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+  
+
+  }
+  .boxed{
+    /* border: 2px solid blue; */
+    position: relative;
+    top: 110px;
+  }
+  .three{
+    justify-content:flex-end;
+    gap: 30px;
+    display: flex;
+    /* position: relative;
+    left: 120px; */
+    width: 700px;
+    align-items: center;
+    /* border: 4px solid purple; */
+  }
+  .footer-links{
+    justify-content: space-between;
+    /* border: yellow 5px solid ; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    position: relative;
+    left: 110px;
+    font-size: 23px;
+  }
+/* .pexabay-images{
+  width: 400px;
+  height: 250px;
+  gap: 40px;
+  transition: 0.1s ;
+  box-shadow: 2px 2px 1px 2px rgb(194, 219, 237);
+
+} */
+/* .pexabay-images:hover{
+  transform: scale(1.1);
+} */
+.searched{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* border: #00AB6B solid 5px ; */
+gap: 40px;
+
+}
+.search-input1{
+  border: none;
+  background-color:rgb(211,213,222);
+  width: 460px;
+  height: 44px;
+  font-size: 20px;
+  padding-left: 30px;
+
+}
+.search-input1:hover{
+background-color: rgb(247,247,247);
+border-radius: 20px;
+
+}
+.searched {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive columns */
+  gap: 15px; 
+  padding: 20px;
+  margin-top: 20px;
+}
+.pexabay-images {
+  width: 100%;
+  height: auto;
+  /* border-radius: 8px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.pexabay-images:hover {
+  transform: scale(1.05);
+}
+.Fotter{
+  /* border: 2px solid red; */
+  padding-left: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+.Learn{
+  width: 300px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer2{
+  display: flex;
+  font-size: 20px;
+  /* border: 3px solid red; */
+  gap: 20px;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+.footer3{
+  display: flex;
+  /* font-size: 20px; */
+ 
+  /* border: 3px solid red; */
+  gap: 20px;
+  align-items: center;
+  position: relative;
+  top: 60px;
+
+}
+

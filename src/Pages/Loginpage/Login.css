@@ -1,0 +1,177 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #22362e, #307f4324),url('https://cdn.pixabay.com/index/2024/09/26/05-56-49-15_1440x550.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .loginbox {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-image: url("https://cdn.pixabay.com/animation/2023/03/28/02/15/02-15-52-868_512.gif");
+    background-repeat: no-repeat;
+   background-position: center;
+    background-size: cover;
+    border: calc(0.08 * var(--m)) solid transparent;
+    background:linear-gradient(#eaeae6, #121213), linear-gradient(#121213 50%, rgba(18, 18, 19, 0.6) 80%, rgba(18, 18, 19, 0)),  linear-gradient(90deg, var(--orange), var(--yellow), var(--green), var(--blue), var(--purple), var(--pink), var(--red));
+    background-origin: border-box;
+    background-clip: padding-box, border-box, border-box;
+    background-size: 200%;
+    animation: animate 0.9s infinite linear;
+  }
+  .loginheader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .heading {
+    font-size: 10px;
+    padding: 10px 10px;
+    /* background: white; */
+    border-radius: 20px;
+    border: none;
+    color: #22362e;
+    border-bottom: 2px solid transparent;
+    font-size: 0.9rem;
+  }
+  .socialmedia {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .googlebtn {
+    background-color: #de5246;
+    width: 48%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .fbbtn {
+    background-color: #3b5998;
+    width: 48%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  .lgform {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inpbtn1 {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  .inpbtn2{
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  .inpbtn3 {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  .inpbtn4{
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  .inpbtn5{
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .enter {
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    width: 390px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  .enter:hover{
+    background-color: aquamarine;
+    color: #22362e;
+  }
+  .lang{
+    /* border: 3px red solid; */
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    position: relative;
+    bottom: 20px;
+  }
+  .langopt{
+    border: none;
+    color: #de5246;
+    position: relative;
+    left: 10px;
+  }
+
+  :root {
+  
+      --m: 4rem;
+      
+      --red: #FF6565;
+      --pink: #FF64F9;
+      --purple: #6B5FFF;
+      --blue: #4D8AFF;
+      --green: #5BFF89;
+      --yellow: #FFEE55;
+      --orange: #FF6D1B;
+      
+    }
+    /* button::before {
+      content: '';
+      background: linear-gradient(90deg, var(--orange), var(--yellow), var(--green), var(--blue), var(--purple), var(--pink), var(--red));
+      height: 30%;
+      width: 60%;
+      position: absolute;
+      bottom: -20%;
+      z-index: -5;
+      background-size: 200%;
+      animation: animate 2s infinite linear;
+      filter: blur(calc(0.8 * var(--m)));
+    } */
+    
+    /* button:hover, button:hover::before {
+      animation: animate 0.5s infinite linear;
+    }
+     */
+    @keyframes animate {
+      0% {background-position: 0}
+      100% {background-position: 200%}
+    }
+  
+
+  
